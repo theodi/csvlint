@@ -37,7 +37,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'rspec-rails', "< 4" # version 4 requires rails 5
+  gem 'rspec-rails', "< 5" # version 4 requires rails 5
   gem 'cucumber-rails', '~> 1.4', require: false
   gem 'database_cleaner', '~> 1.99'
   gem 'coveralls', '~> 0.8', require: false
